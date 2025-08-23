@@ -35,7 +35,7 @@ DEATH_LINK_ACTIVE_ADDR = EARTHBOUND_ROMNAME_START + 0x15     # EARTHBOUND_TODO: 
 
 class EarthBoundSNIClient(SNIClient):
     game = "EarthBound"
-    patch_suffix = ".apdkc3"
+    patch_suffix = ".apeb"
 
     async def deathlink_kill_player(self, ctx):
         pass
